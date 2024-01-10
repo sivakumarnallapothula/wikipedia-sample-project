@@ -48,7 +48,7 @@ search1.onclick = function() {
 
 
 
-
+spin.classList.add("col-12")
     spin.classList.remove("d-none")
     division2.textContent = ""
     let f = input.value
@@ -123,6 +123,7 @@ input.addEventListener("keydown", function(sk) {
 
 
     if (sk.key === "Enter") {
+        spin.classList.add("col-12")
         spin.classList.remove("d-none")
         division2.textContent = ""
         let f = input.value
