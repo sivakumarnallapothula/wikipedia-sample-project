@@ -20,8 +20,86 @@
     position: relative;
     animation: .1s rotate linear infinite;
 
+}
 
 
+.buttt {
+    width: 70px;
+    border-radius: 5px;
+}
+
+.buttt:hover {
+    background-color: lightblue;
+    color: blue;
+
+}
+
+@media screen and (min-width:768px) {
+    .im {
+        width: 30%;
+        padding: 5px;
+        position: relative;
+        animation: .1s rotate linear infinite;
+
+    }
+
+    .in {
+        font-style: italic;
+        width: 350px;
+        font-size: 25px;
+        padding-top: 30px;
+        margin-right: 10px;
+        padding-bottom: 30px;
+    }
+
+    .buttt {
+
+        font-size: 23px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100px;
+        border-radius: 5px;
+    }
+
+    .buttt:hover {
+        background-color: lightblue;
+        color: blue;
+
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .im {
+        width: 25%;
+        padding: 5px;
+        position: relative;
+        animation: .1s rotate linear infinite;
+
+    }
+
+    .in {
+        font-style: italic;
+        width: 350px;
+        font-size: 25px;
+        padding-top: 40px;
+        margin-right: 10px;
+        padding-bottom: 40px;
+    }
+
+    .buttt {
+
+        font-size: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 150px;
+        border-radius: 5px;
+    }
+
+    .buttt:hover {
+        background-color: lightblue;
+        color: blue;
+
+    }
 }
 
 @keyframes rotate {
@@ -34,40 +112,12 @@
     }
 }
 
-@media screen and (min-width:576px) {
-    .im {
-        min-width: 130px;
-        width: 100px;
-        padding: 5px;
-        position: relative;
-        animation: .1s rotate linear infinite;
-    }
-
-    .in {
-        height: 40px;
-        width: 70%;
-        min-width: 200px;
-        position: relative;
-        font-style: italic;
-    }
-
-    .buttt:hover {
-        background-color: lightblue;
-        color: blue;
-    }
-}
-
 .in {
-    height: 40px;
-    width: 70%;
-    min-width: 200px;
-    position: relative;
+    height: 45px;
     font-style: italic;
 }
 
-.imag {
-    animation-play-state: paused;
-}
+
 
 .in:hover {
     background-color: black;
@@ -81,8 +131,8 @@
     margin-bottom: 20px;
 }
 
-input[type=search] {
-    color: Blue;
+.imag {
+    animation-play-state: paused;
 }
 
 .result-title {
